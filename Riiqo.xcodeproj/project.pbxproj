@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		662CE3C51F13FBCB00CD115E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662CE3C41F13FBCB00CD115E /* AppDelegate.swift */; };
+		662CE3C71F13FBCB00CD115E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662CE3C61F13FBCB00CD115E /* ViewController.swift */; };
+		662CE3CA1F13FBCB00CD115E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662CE3C81F13FBCB00CD115E /* Main.storyboard */; };
+		662CE3CD1F13FBCB00CD115E /* Riiqo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 662CE3CB1F13FBCB00CD115E /* Riiqo.xcdatamodeld */; };
+		662CE3CF1F13FBCB00CD115E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662CE3CE1F13FBCB00CD115E /* Assets.xcassets */; };
+		662CE3D21F13FBCB00CD115E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662CE3D01F13FBCB00CD115E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		662CE3C11F13FBCB00CD115E /* Riiqo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Riiqo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		662CE3C41F13FBCB00CD115E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		662CE3C61F13FBCB00CD115E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		662CE3C91F13FBCB00CD115E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		662CE3CC1F13FBCB00CD115E /* Riiqo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Riiqo.xcdatamodel; sourceTree = "<group>"; };
+		662CE3CE1F13FBCB00CD115E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		662CE3D11F13FBCB00CD115E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		662CE3D31F13FBCB00CD115E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		662CE3BE1F13FBCB00CD115E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		662CE3B81F13FBCB00CD115E = {
+			isa = PBXGroup;
+			children = (
+				662CE3C31F13FBCB00CD115E /* Riiqo */,
+				662CE3C21F13FBCB00CD115E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		662CE3C21F13FBCB00CD115E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				662CE3C11F13FBCB00CD115E /* Riiqo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		662CE3C31F13FBCB00CD115E /* Riiqo */ = {
+			isa = PBXGroup;
+			children = (
+				662CE3C41F13FBCB00CD115E /* AppDelegate.swift */,
+				662CE3C61F13FBCB00CD115E /* ViewController.swift */,
+				662CE3C81F13FBCB00CD115E /* Main.storyboard */,
+				662CE3CE1F13FBCB00CD115E /* Assets.xcassets */,
+				662CE3D01F13FBCB00CD115E /* LaunchScreen.storyboard */,
+				662CE3D31F13FBCB00CD115E /* Info.plist */,
+				662CE3CB1F13FBCB00CD115E /* Riiqo.xcdatamodeld */,
+			);
+			path = Riiqo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		662CE3C01F13FBCB00CD115E /* Riiqo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662CE3D61F13FBCB00CD115E /* Build configuration list for PBXNativeTarget "Riiqo" */;
+			buildPhases = (
+				662CE3BD1F13FBCB00CD115E /* Sources */,
+				662CE3BE1F13FBCB00CD115E /* Frameworks */,
+				662CE3BF1F13FBCB00CD115E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Riiqo;
+			productName = Riiqo;
+			productReference = 662CE3C11F13FBCB00CD115E /* Riiqo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		662CE3B91F13FBCB00CD115E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "PineAPPle LLC";
+				TargetAttributes = {
+					662CE3C01F13FBCB00CD115E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HK9J242HR4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 662CE3BC1F13FBCB00CD115E /* Build configuration list for PBXProject "Riiqo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 662CE3B81F13FBCB00CD115E;
+			productRefGroup = 662CE3C21F13FBCB00CD115E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				662CE3C01F13FBCB00CD115E /* Riiqo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		662CE3BF1F13FBCB00CD115E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662CE3D21F13FBCB00CD115E /* LaunchScreen.storyboard in Resources */,
+				662CE3CF1F13FBCB00CD115E /* Assets.xcassets in Resources */,
+				662CE3CA1F13FBCB00CD115E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		662CE3BD1F13FBCB00CD115E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662CE3CD1F13FBCB00CD115E /* Riiqo.xcdatamodeld in Sources */,
+				662CE3C71F13FBCB00CD115E /* ViewController.swift in Sources */,
+				662CE3C51F13FBCB00CD115E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		662CE3C81F13FBCB00CD115E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662CE3C91F13FBCB00CD115E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		662CE3D01F13FBCB00CD115E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662CE3D11F13FBCB00CD115E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		662CE3D41F13FBCB00CD115E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		662CE3D51F13FBCB00CD115E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		662CE3D71F13FBCB00CD115E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HK9J242HR4;
+				INFOPLIST_FILE = Riiqo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pineapplecoding.Riiqo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		662CE3D81F13FBCB00CD115E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HK9J242HR4;
+				INFOPLIST_FILE = Riiqo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pineapplecoding.Riiqo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		662CE3BC1F13FBCB00CD115E /* Build configuration list for PBXProject "Riiqo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662CE3D41F13FBCB00CD115E /* Debug */,
+				662CE3D51F13FBCB00CD115E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662CE3D61F13FBCB00CD115E /* Build configuration list for PBXNativeTarget "Riiqo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662CE3D71F13FBCB00CD115E /* Debug */,
+				662CE3D81F13FBCB00CD115E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		662CE3CB1F13FBCB00CD115E /* Riiqo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				662CE3CC1F13FBCB00CD115E /* Riiqo.xcdatamodel */,
+			);
+			currentVersion = 662CE3CC1F13FBCB00CD115E /* Riiqo.xcdatamodel */;
+			path = Riiqo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 662CE3B91F13FBCB00CD115E /* Project object */;
+}
